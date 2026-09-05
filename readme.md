@@ -133,3 +133,11 @@ This project was initially based on a free website template provided by **FreeTe
 The original template was intended for personal or commercial use with attribution. Please refer to the original template's licensing/attribution requirements and retain the required **FreeTemplateGo** credit where applicable.
 
 **Original template provider:** FreeTemplateGo
+
+;; echo "# ecomapp" >> README.md
+;; git init
+;; git add README.md
+;; git commit -m "first commit"
+;; git branch -M main
+;; git remote add origin https://github.com/Tedpi1/ecomapp.git
+;; git push -u origin main
