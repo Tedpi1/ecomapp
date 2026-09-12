@@ -1,0 +1,468 @@
+{% extends "index.html" %} {% load static %} {% block title %}
+<title>Home - OurShop</title>{%endblock title %}{% block content %}
+<section class="hero-section">
+  <div class="container hero-inner">
+    <div class="hero-left">
+      <p class="hero-tag">✦ New Season Collection</p>
+      <h1 class="hero-title">Define<br />Your <span>Edge</span></h1>
+      <p class="hero-desc">
+        Elevated streetwear for those who set the pace. Bold silhouettes,
+        premium fabrics, unapologetically you.
+      </p>
+      <div class="hero-btns">
+        <a href="shop.html" class="btn btn-primary">Shop Now</a>
+        <a href="shop.html#new" class="btn btn-outline">New Arrivals</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <!-- AI Prompt: Stylish young woman in trendy denim jacket and casual outfit, confident pose, clean white studio background, fashion editorial photography -->
+        <img src="assets/hero_girl.png" alt="VeloMix Fashion Hero" />
+        <div class="hero-float-badge">
+          <span class="hfb-num">500+</span>
+          <span class="hfb-lbl">New Styles<br />This Season</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRUST BAR ========== -->
+<section class="trust-bar">
+  <div class="container trust-grid">
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <rect x="1" y="3" width="15" height="13" />
+          <path d="m16 8 2 0 4 4v3h-6V8z" />
+          <circle cx="5.5" cy="18.5" r="2.5" />
+          <circle cx="18.5" cy="18.5" r="2.5" />
+        </svg>
+      </div>
+      <div>
+        <div class="trust-title">Free Delivery</div>
+        <div class="trust-desc">On orders over $79</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <polyline points="23 4 23 10 17 10" />
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+        </svg>
+      </div>
+      <div>
+        <div class="trust-title">Easy Returns</div>
+        <div class="trust-desc">30-day hassle-free policy</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+        </svg>
+      </div>
+      <div>
+        <div class="trust-title">Member Perks</div>
+        <div class="trust-desc">Exclusive discounts & early access</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.13 11.84 19.79 19.79 0 0 1 1.07 3.21 2 2 0 0 1 3.05 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+          />
+        </svg>
+      </div>
+      <div>
+        <div class="trust-title">24/7 Support</div>
+        <div class="trust-desc">Always here to help you</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROMO BANNERS ROW ========== -->
+<section class="section-padding">
+  <div class="container promo-row">
+    <!-- Promo 1 -->
+    <div class="promo-card">
+      <!-- AI Prompt: Fashionable woman in a white oversized coat walking on a city street, autumn season, editorial fashion photography -->
+      <img src="assets/trend_girl_1.png" alt="Season Essentials" />
+      <div class="promo-card-overlay">
+        <p class="promo-card-label">New Season</p>
+        <h3 class="promo-card-title">Autumn<br />Essentials</h3>
+        <a href="shop.html" class="btn btn-outline-white btn-sm">Shop Now</a>
+      </div>
+    </div>
+    <!-- Promo 2 -->
+    <div class="promo-card">
+      <!-- AI Prompt: Close-up of stylish shoes and handbag accessories on a clean white marble surface, fashion still life photography -->
+      <img src="assets/product_bag.png" alt="Accessories" />
+      <div class="promo-card-overlay">
+        <p class="promo-card-label">Accessories</p>
+        <h3 class="promo-card-title">Bags &amp;<br />Footwear</h3>
+        <a href="shop.html" class="btn btn-outline-white btn-sm">Explore</a>
+      </div>
+    </div>
+    <!-- Promo 3 -->
+    <div class="promo-card">
+      <!-- AI Prompt: Young woman wearing a stylish crop top and high-waist jeans, smiling, outdoor urban setting, fashion photography -->
+      <img src="assets/trend_girl_2.png" alt="Casual Wear" />
+      <div class="promo-card-overlay">
+        <p class="promo-card-label">Casual Edit</p>
+        <h3 class="promo-card-title">Street<br />Casual</h3>
+        <a href="shop.html" class="btn btn-outline-white btn-sm">Shop</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXPLORE STYLES (Top Collections) ========== -->
+<section class="section-padding" style="padding-top: 0">
+  <div class="container">
+    <div class="section-title-wrap">
+      <div class="bg-text">STYLES</div>
+      <span class="section-label">Browse By Type</span>
+      <h2 class="section-title">Explore Styles</h2>
+      <p class="section-desc">
+        From everyday basics to statement pieces — find your signature look.
+      </p>
+    </div>
+    <div class="collection-grid">
+      <div class="collection-card">
+        <div class="collection-img-wrap">
+          <!-- AI Prompt: Elegant leather tote bag on a clean white background, fashion product photography, studio lighting -->
+          <img src="assets/product_bag.png" alt="Bags" />
+        </div>
+        <span class="collection-name">Bags</span>
+      </div>
+      <div class="collection-card">
+        <div class="collection-img-wrap">
+          <!-- AI Prompt: Trendy white sneakers on a marble surface, minimal fashion photography, clean background -->
+          <img src="assets/product_shoes.png" alt="Footwear" />
+        </div>
+        <span class="collection-name">Footwear</span>
+      </div>
+      <div class="collection-card">
+        <div class="collection-img-wrap">
+          <!-- AI Prompt: Stylish crop top with unique pattern, female model, fashion editorial photo -->
+          <img src="assets/product_croptop.png" alt="Tops" />
+        </div>
+        <span class="collection-name">Tops</span>
+      </div>
+      <div class="collection-card">
+        <div class="collection-img-wrap">
+          <!-- AI Prompt: Cozy oversized hoodie in neutral tone, model wearing it casually, soft fashion photography -->
+          <img src="assets/product_hoodie.png" alt="Hoodies" />
+        </div>
+        <span class="collection-name">Hoodies</span>
+      </div>
+      <div class="collection-card">
+        <div class="collection-img-wrap">
+          <!-- AI Prompt: Minimalist white graphic t-shirt flat lay on clean surface, fashion product photography -->
+          <img src="assets/product_tshirt.png" alt="Tees" />
+        </div>
+        <span class="collection-name">Tees</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAN FAVORITES (Best Selling) ========== -->
+<section class="section-padding" style="background: var(--bg-light)">
+  <div class="container">
+    <div class="section-title-wrap">
+      <div class="bg-text">FAVORITES</div>
+      <span class="section-label">Most Loved</span>
+      <h2 class="section-title">Fan Favorites</h2>
+      <p class="section-desc">
+        Consistently rated top picks by our community. Style that speaks for
+        itself.
+      </p>
+    </div>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <!-- AI Prompt: Stylish denim jacket with distressed details, female fashion model, editorial style photo -->
+          <img src="assets/product_denim_jacket.png" alt="Denim Jacket" />
+          <span class="product-badge badge badge-hot">Hot</span>
+          <button class="wishlist-btn" aria-label="Add to wishlist">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <a href="product-detail.html"
+            ><h4 class="product-name">Faded Indigo Denim Jacket</h4></a
+          >
+          <div class="product-price">
+            <span class="price-current">$89.00</span>
+            <span class="price-old">$119.00</span>
+          </div>
+          <div class="product-stars">★★★★★ <span>(128)</span></div>
+        </div>
+        <button class="product-quick-add">+ Add to Cart</button>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <!-- AI Prompt: Classic white button-down cotton shirt, clean studio product photo, fashion editorial -->
+          <img src="assets/product_white_jacket.png" alt="White Jacket" />
+          <span class="product-badge badge badge-new">New</span>
+          <button class="wishlist-btn" aria-label="Add to wishlist">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <a href="product-detail.html"
+            ><h4 class="product-name">Relaxed Linen Blazer</h4></a
+          >
+          <div class="product-price">
+            <span class="price-current">$74.00</span>
+          </div>
+          <div class="product-stars">★★★★☆ <span>(84)</span></div>
+        </div>
+        <button class="product-quick-add">+ Add to Cart</button>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <!-- AI Prompt: Bold off-shoulder black blouse, elegant and stylish female fashion product photo -->
+          <img
+            src="assets/product_offshoulder_black.png"
+            alt="Off Shoulder Black"
+          />
+          <span class="product-badge badge badge-sale">−25%</span>
+          <button class="wishlist-btn" aria-label="Add to wishlist">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <a href="product-detail.html"
+            ><h4 class="product-name">Sculpted Off-Shoulder Top</h4></a
+          >
+          <div class="product-price">
+            <span class="price-current">$52.00</span>
+            <span class="price-old">$69.00</span>
+          </div>
+          <div class="product-stars">★★★★★ <span>(210)</span></div>
+        </div>
+        <button class="product-quick-add">+ Add to Cart</button>
+      </div>
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <!-- AI Prompt: Vibrant printed cotton shirt with bold pattern, male fashion editorial, clean studio background -->
+          <img src="assets/product_pattern_shirt.png" alt="Pattern Shirt" />
+          <button class="wishlist-btn" aria-label="Add to wishlist">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <a href="product-detail.html"
+            ><h4 class="product-name">Graphic Interplay Shirt</h4></a
+          >
+          <div class="product-price">
+            <span class="price-current">$48.00</span>
+          </div>
+          <div class="product-stars">★★★★☆ <span>(67)</span></div>
+        </div>
+        <button class="product-quick-add">+ Add to Cart</button>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 48px">
+      <a href="shop.html" class="btn btn-outline">View All Products</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WORN & LOVED (Testimonials) ========== -->
+<section class="testi-section section-padding">
+  <div class="container">
+    <div class="section-title-wrap">
+      <span class="section-label">Real Reviews</span>
+      <h2 class="section-title">Worn &amp; Loved</h2>
+      <p class="section-desc">
+        Thousands of happy customers. Here's what they're saying about VeloMix.
+      </p>
+    </div>
+    <div class="testi-slider">
+      <div class="testi-track">
+        <!-- Slide 1 -->
+        <div class="testi-slide">
+          <div class="testi-card">
+            <div class="testi-rating">★★★★★</div>
+            <p class="testi-text">
+              "The Faded Indigo Jacket became my instant go-to. The quality is
+              miles above anything I've bought at this price point. Fits
+              perfectly and gets compliments every time I wear it."
+            </p>
+            <div class="testi-author">
+              <!-- AI Prompt: Portrait photo of a smiling young woman with natural makeup, casual style, soft studio background, avatar photo -->
+              <img
+                src="assets/testi_girl_1.png"
+                alt="Mia Chen"
+                class="testi-avatar"
+              />
+              <div>
+                <div class="testi-name">Mia Chen</div>
+                <div class="testi-role">Verified Buyer · NYC</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-rating">★★★★★</div>
+            <p class="testi-text">
+              "I ordered the Sculpted Off-Shoulder Top for a dinner event and I
+              literally had five people ask where I got it. Shipped fast,
+              packaged beautifully. Will definitely be buying more."
+            </p>
+            <div class="testi-author">
+              <!-- AI Prompt: Portrait photo of a stylish young woman smiling confidently, natural light outdoor background, lifestyle photo -->
+              <img
+                src="assets/testi_girl_2.png"
+                alt="Priya Sharma"
+                class="testi-avatar"
+              />
+              <div>
+                <div class="testi-name">Priya Sharma</div>
+                <div class="testi-role">Verified Buyer · London</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="testi-slide">
+          <div class="testi-card">
+            <div class="testi-rating">★★★★★</div>
+            <p class="testi-text">
+              "Great selection and the curated drops keep things fresh. The
+              hoodie I bought holds its shape wash after wash. This is my third
+              order and definitely not my last."
+            </p>
+            <div class="testi-author">
+              <!-- AI Prompt: Portrait photo of a smiling young woman with natural makeup, casual style, soft studio background, avatar photo -->
+              <img
+                src="assets/testi_girl_1.png"
+                alt="Zara Williams"
+                class="testi-avatar"
+              />
+              <div>
+                <div class="testi-name">Zara Williams</div>
+                <div class="testi-role">Verified Buyer · Sydney</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-rating">★★★★☆</div>
+            <p class="testi-text">
+              "The style curation at VeloMix is genuinely impressive. Every
+              piece feels intentional — not trendy for the sake of it, but
+              actually wearable and enduring. Love the brand."
+            </p>
+            <div class="testi-author">
+              <!-- AI Prompt: Portrait photo of a stylish young woman smiling confidently, natural light outdoor background, lifestyle photo -->
+              <img
+                src="assets/testi_girl_2.png"
+                alt="Danielle Brooks"
+                class="testi-avatar"
+              />
+              <div>
+                <div class="testi-name">Danielle Brooks</div>
+                <div class="testi-role">Verified Buyer · Toronto</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-dots">
+        <span class="testi-dot active"></span>
+        <span class="testi-dot"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
